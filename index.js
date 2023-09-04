@@ -46,13 +46,21 @@
 
 // document.getElementById("hello").innerHTML += `${Arr3}`;
 
-let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44]
-function Adults(Arr1){
-    return Arr1 >=18;
-}
+// let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44,20]
+// function Adults(Arr1){
+//     return Arr1 >=18;
+// }
 
-document.getElementById("hello").innerHTML += Arr1.filter(Adults).length;
+// document.getElementById("hello").innerHTML += Arr1.filter(Adults).length;
 
 
+// let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44,20];
+
+// function Finds (Arr1){
+
+//     return Arr1 >= 18;
+
+// }
+// document.getElementById("hello").innerHTML += Arr1.find(Finds);
 
 
