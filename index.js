@@ -87,10 +87,15 @@
 
 let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44,20];
 
-function Mapping(n){
+// function Mapping(n){
 
-    return n *10 ;
+//     return n *10 ;
 
-}
+// }
 
-document.getElementById("hello").innerHTML = Arr1.map(Mapping);
+// document.getElementById("hello").innerHTML = Arr1.sort();
+
+// document.getElementById("hello").innerHTML =Arr1.slice(2,10);
+
+Arr1.splice(5,8, "hello" , "Somya");
+document.getElementById("hello").innerHTML =Arr1;
