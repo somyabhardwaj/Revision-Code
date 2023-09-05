@@ -63,18 +63,30 @@
 // }
 // document.getElementById("hello").innerHTML += Arr1.find(Finds);
 
+
+
+// function Value(index) {
+    
+//     return index; 
+//   }
+
+//   function Finds(item, index, arr) {
+//     arr[index] = item + " This item is in index " + Value(index);
+//   }
+// Arr1.forEach(Finds);
+
+
+
+// let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44,20];
+
+// function checkAge(Arr1) {
+//     return Arr1 > 18;
+//   }
+
+// document.getElementById("hello").innerHTML = Arr1.findIndex(checkAge);
+
 let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44,20];
 
-function Value(index) {
-    
-    return index; 
-  }
-
-  function Finds(item, index, arr) {
-    arr[index] = item + " This item is in index " + Value(index);
-  }
-Arr1.forEach(Finds);
 
 
-    document.getElementById("hello").innerHTML = Arr1
-
+document.getElementById("hello").innerHTML = Arr1.includes(30);
