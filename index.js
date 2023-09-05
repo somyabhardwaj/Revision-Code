@@ -119,3 +119,24 @@
 //     });
 
 // });
+
+// for...of loop to iterate multi Array
+
+
+
+// for (let i of Arr1){
+//     for (let j of i){
+//     document.getElementById("hello").innerHTML += j + "$ " +"<br>" ;
+//     }
+// }
+let Arr1 =[[20,30,25,26,10,15,14,19,13],[12,12,15,14,10,56,5,44,20]];
+for (let i = 0; i < Arr1.length; i++) {
+    for (let j = 0; j < Arr1[i].length; j++) {
+      document.getElementById("hello").innerHTML +=  Arr1[i][j] + "\r" ;
+    }
+
+    document.getElementById("hello").innerHTML += "\n";
+  }
+
+
+
