@@ -63,4 +63,13 @@
 // }
 // document.getElementById("hello").innerHTML += Arr1.find(Finds);
 
+let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44,20];
+
+
+
+function Finds(item, index, arr) {
+  arr[index] = item * 10;
+}
+Arr1.forEach(Finds);
+    document.getElementById("hello").innerHTML = Arr1
 
