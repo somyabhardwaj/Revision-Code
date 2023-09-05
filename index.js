@@ -110,4 +110,12 @@
 
 // document.getElementById("hello").innerHTML += X === "Somya" ? "SB" : "Hero";
 
-let Arr1 =[[20,30,25,26,10,15,14,19,13],[12,12,15,14,10,56,5,44,20]];
+// let Arr1 =[[20,30,25,26,10,15,14,19,13],[12,12,15,14,10,56,5,44,20]];
+
+// let x =Arr1.forEach((data)=>{
+//     data.forEach((innerData)=>{
+
+//         document.getElementById("hello").innerHTML += innerData;
+//     });
+
+// });
