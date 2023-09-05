@@ -87,6 +87,10 @@
 
 let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44,20];
 
+function Mapping(n){
 
+    return n *10 ;
 
-document.getElementById("hello").innerHTML = Arr1.includes(30);
+}
+
+document.getElementById("hello").innerHTML = Arr1.map(Mapping);
