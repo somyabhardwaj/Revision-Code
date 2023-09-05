@@ -85,7 +85,7 @@
 
 // document.getElementById("hello").innerHTML = Arr1.findIndex(checkAge);
 
-let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44,20];
+// let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44,20];
 
 // function Mapping(n){
 
@@ -97,5 +97,17 @@ let Arr1 =[20,30,25,26,10,15,14,19,13,12,12,15,14,10,56,5,44,20];
 
 // document.getElementById("hello").innerHTML =Arr1.slice(2,10);
 
-Arr1.splice(5,8, "hello" , "Somya");
-document.getElementById("hello").innerHTML =Arr1;
+// Arr1.splice(5,8, "hello" , "Somya");
+// document.getElementById("hello").innerHTML =Arr1;
+
+// Multidimention Array
+
+
+
+// let X= "Somya";
+// document.getElementById("a").innerHTML += X;
+
+
+// document.getElementById("hello").innerHTML += X === "Somya" ? "SB" : "Hero";
+
+let Arr1 =[[20,30,25,26,10,15,14,19,13],[12,12,15,14,10,56,5,44,20]];
