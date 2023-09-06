@@ -189,13 +189,21 @@ const fruits = new Map([
 // document.getElementById("hello").innerHTML += fruits.get("apples");
 // document.getElementById("hello").innerHTML += fruits.delete("apples");
 // document.getElementById("hello").innerHTML += fruits.has("apples");
-let text = " ";
+// let text = " ";
 
-fruits.forEach(function(key, value){
+// fruits.forEach(function(key, value){
 
-    text += value + "= " + key + "<br>" ;
-});
-document.getElementById("hello").innerHTML += text;
+//     text += value + "= " + key + "<br>" ;
+// });
+// document.getElementById("hello").innerHTML += text;
+
+const txt = '{"name":"John", "age":30, "city":"New York"}'
+const obj = JSON.parse(txt);
+let out =" ";
+for (let i in obj){
+out +=  i + "= " +obj[i] + " <br>" ;
+document.getElementById("hello").innerHTML =out;
+}
 
 
 
