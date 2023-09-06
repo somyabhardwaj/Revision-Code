@@ -167,14 +167,36 @@
 
 // Sets is a collection of unique Value
 
-let Letters = new Set([2, 3, 4, 5, 6, 6, 7, 6]);
-let text = " "; // Initialize an empty string
+// let Letters = new Set([2, 3, 4, 5, 6, 6, 7, 6]);
+// let text = " "; // Initialize an empty string
 
-Letters.forEach (function(value) {
-  text += value + " ";
-})
+// Letters.forEach (function(value) {
+//   text += value + " ";
+// })
 
 
-// Assign the built string to the "hello" element's innerHTML
+// // Assign the built string to the "hello" element's innerHTML
+
+
+const fruits = new Map([
+    
+    ["bananas", 300],
+    ["oranges", 200]
+  ]);
+
+  fruits.set("apples", 500);
+
+// document.getElementById("hello").innerHTML += fruits.get("apples");
+// document.getElementById("hello").innerHTML += fruits.delete("apples");
+// document.getElementById("hello").innerHTML += fruits.has("apples");
+let text = " ";
+
+fruits.forEach(function(key, value){
+
+    text += value + "= " + key + "<br>" ;
+});
 document.getElementById("hello").innerHTML += text;
+
+
+
 
