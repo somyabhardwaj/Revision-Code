@@ -178,13 +178,14 @@
 // // Assign the built string to the "hello" element's innerHTML
 
 
-const fruits = new Map([
+// const fruits = new Map([
     
-    ["bananas", 300],
-    ["oranges", 200]
-  ]);
+//     ["bananas", 300],
+//     ["apples", 300],
+//     ["oranges", 200]
+//   ]);
 
-  fruits.set("apples", 500);
+  
 
 // document.getElementById("hello").innerHTML += fruits.get("apples");
 // document.getElementById("hello").innerHTML += fruits.delete("apples");
@@ -197,13 +198,34 @@ const fruits = new Map([
 // });
 // document.getElementById("hello").innerHTML += text;
 
-const txt = '{"name":"John", "age":30, "city":"New York"}'
-const obj = JSON.parse(txt);
-let out =" ";
-for (let i in obj){
-out +=  i + "= " +obj[i] + " <br>" ;
-document.getElementById("hello").innerHTML =out;
+// const txt = '{"name":"John", "age":30, "city":"New York"}'
+// const obj = JSON.parse(txt);
+// let out =" ";
+// for (let i in obj){
+// out +=  i + "= " +obj[i] + " <br>" ;
+// document.getElementById("hello").innerHTML =out;
+// }
+
+// const fruits ={
+    
+//     bananas: 300,
+//     apples: 300,
+//     oranges:200
+// };
+
+// for (let i in fruits){
+
+//     document.getElementById("hello").innerHTML += `${i} =>$${fruits[i]} <br> `;
+// }
+
+
+// let b = "Hello Somya";
+
+let b = new Set([1,2,3,5,4])
+for (let i of b){
+document.getElementById("hello").innerHTML += i;
 }
+
 
 
 
