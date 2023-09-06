@@ -167,6 +167,14 @@
 
 // Sets is a collection of unique Value
 
-let Letters = new Set([2,3,4,5,6,6,7,6]);
- 
-document.getElementById("hello").innerHTML += Letters.size ;
+let Letters = new Set([2, 3, 4, 5, 6, 6, 7, 6]);
+let text = " "; // Initialize an empty string
+
+Letters.forEach (function(value) {
+  text += value + " ";
+})
+
+
+// Assign the built string to the "hello" element's innerHTML
+document.getElementById("hello").innerHTML += text;
+
