@@ -221,12 +221,28 @@
 
 // let b = "Hello Somya";
 
-let b = new Set([1,2,3,5,4])
-for (let i of b){
-document.getElementById("hello").innerHTML += i;
-}
+// let b = new Set([1,2,3,5,4])
+// for (let i of b){
+// document.getElementById("hello").innerHTML += i;
+// }
 
-
-
-
-
+var pokemon = {
+    firstname: 'Pika',
+    lastname: 'Chu',
+    getPokeName: function() {
+      var fullname = this.firstname + ' ' + this.lastname;
+      return fullname;
+    }
+  };
+  
+  var pokemonName = function() {
+    return this.getPokeName() + ' I choose you!';
+  };
+  
+  var logPokemon = pokemonName.bind(pokemon);
+  
+  var result = logPokemon();
+  
+  // Display the result in the "hello" element
+  document.getElementById("hello").innerHTML += result;
+  
