@@ -129,14 +129,44 @@
 //     document.getElementById("hello").innerHTML += j + "$ " +"<br>" ;
 //     }
 // }
-let Arr1 =[[20,30,25,26,10,15,14,19,13],[12,12,15,14,10,56,5,44,20]];
-for (let i = 0; i < Arr1.length; i++) {
-    for (let j = 0; j < Arr1[i].length; j++) {
-      document.getElementById("hello").innerHTML +=  Arr1[i][j] + "\r" ;
-    }
+// let Arr1 =[[20,30,25,26,10,15,14,19,13],[12,12,15,14,10,56,5,44,20]];
+// for (let i = 0; i < Arr1.length; i++) {
+//     for (let j = 0; j < Arr1[i].length; j++) {
+//       document.getElementById("hello").innerHTML +=  Arr1[i][j] + "\r" ;
+//     }
 
-    document.getElementById("hello").innerHTML += "\n";
-  }
+//     document.getElementById("hello").innerHTML += "\n";
+//   }
 
+// Objects adn its methods 
 
+// let obj1= {
 
+//     Name:"Somya",
+//     Age : 22,
+
+// }
+// Dot Notation
+// document.getElementById("hello").innerHTML += obj1.Name;
+
+// Bracket Notation 
+// document.getElementById("hello").innerHTML += obj1["Name"];
+
+// Nested Object 
+// let obj1= {
+
+//     Name:"Somya",
+//     Age : 22,
+//     obj2:{
+
+//         Name:"Hari",
+//         Age : 20
+//     }
+
+// }
+
+// Sets is a collection of unique Value
+
+let Letters = new Set([2,3,4,5,6,6,7,6]);
+ 
+document.getElementById("hello").innerHTML += Letters.size ;
