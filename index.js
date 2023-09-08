@@ -270,8 +270,23 @@
 
 
 
+let pokemon ={
+Name: "picka",
+Last: "Chu",
+Choose: function (){
+  let fullName = this.Name +  " " + this.Last;
+  return fullName;
+}
+}
+let pokeName= function(snack, hobby){
+  return this.Choose() + " loves " + snack + " and " + hobby;
+  }
+//   let result = pokeName.call(pokemon, "Sushi" , "games");
+  
+// document.getElementById("hello").innerHTML += result;
 
+let result = pokeName.apply(pokemon, ['sushi', 'algorithms']);
 
-
+document.getElementById("hello").innerHTML += result;
 
  
