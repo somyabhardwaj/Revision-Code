@@ -17,17 +17,29 @@
 
   // }
 
-  const  nodeMap = document.getElementById("myImg").attributes;
+//   const  nodeMap = document.getElementById("myImg").attributes;
 
-  let text ="";
+//   let text ="";
 
-  for (let i=0;i<nodeMap.length;i++)
-{
+//   for (let i=0;i<nodeMap.length;i++)
+// {
 
-  text += nodeMap[i].name + " = " + nodeMap[i].value + "<br>"
+//   text += nodeMap[i].name + " = " + nodeMap[i].value + "<br>"
 
-  document.getElementById("demo").innerHTML = text;
+//   document.getElementById("demo").innerHTML = text;
+// }
+  
+  
+// function losefocus() {
+//   document.getElementById("myList").focus();
+// }
+
+
+function myFunction() {
+  const element = document.getElementById("myDIV");
+  if (element.className == "myStyle") {
+    element.className = "newStyle";
+  } else {
+    element.className = "myStyle";
+  }
 }
-  
-  
-  
