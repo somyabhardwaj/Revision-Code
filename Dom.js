@@ -35,11 +35,17 @@
 // }
 
 
+// function myFunction() {
+//   const element = document.getElementById("myDIV");
+//   if (element.className == "myStyle") {
+//     element.className = "newStyle";
+//   } else {
+//     element.className = "myStyle";
+//   }
+// }
+
 function myFunction() {
-  const element = document.getElementById("myDIV");
-  if (element.className == "myStyle") {
-    element.className = "newStyle";
-  } else {
-    element.className = "myStyle";
-  }
+  const h2 = document.getElementById("myH2");
+  let html = "<p>My new paragraph.</p>";
+  h2.insertAdjacentHTML("afterend", html);
 }
