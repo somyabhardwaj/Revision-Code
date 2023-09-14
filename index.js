@@ -315,14 +315,24 @@
 // Dom
 
 function myFunction(x) {
-  if (x.matches) { 
+  if (x.matches) { // If media query matches
     document.body.style.backgroundColor = "yellow";
   } else {
-    document.body.style.backgroundColor = "red";
+    document.body.style.backgroundColor = "pink";
   }
 }
 
 var x = window.matchMedia("(max-width: 700px)")
 myFunction(x) // Call listener function at run time
-x.addEventListener(myFunction) 
+x.addListener(myFunction) // Attach listener function on state changes
+
+
+
+
+document.getElementById("myBtn").addEventListener("click", function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+});
+
+
+
 
