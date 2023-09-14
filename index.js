@@ -326,13 +326,3 @@ var x = window.matchMedia("(max-width: 700px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction) // Attach listener function on state changes
 
-
-
-
-document.getElementById("myBtn").addEventListener("click", function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-});
-
-
-
-
