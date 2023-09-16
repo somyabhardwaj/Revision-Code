@@ -1,4 +1,55 @@
 <!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("p").on({
+    mouseenter: function(){
+      $(this).css("background-color", "lightgray");
+    },  
+    mouseleave: function(){
+      $(this).css("background-color", "lightblue");
+    }, 
+    click: function(){
+      $(this).css("background-color", "yellow");
+    }  
+  });
+});
+</script>
+</head>
+<body>
+
+<p>Click or move the mouse pointer over this paragraph.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -41,7 +92,7 @@
   <button onclick="losefocus()" id="myBtn">Try it</button>
 
   <p id="demo"> -->
-
+<!-- 
     <button onclick="myFunction()">Insert</button>
 
 
@@ -49,6 +100,6 @@
 
   <script src="index.js"></script>
   <script src="Dom.js"></script>
-</body>
+</body> -->
 
-</html>
+<!-- </html> --> -->
